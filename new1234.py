@@ -8,7 +8,7 @@ import openpyxl
 st.set_page_config(page_title="User Login", page_icon="🔑", layout="centered")
 
 # File Path to User Data
-file_path = r"C:\\Users\\YS244WK\\OneDrive - EY\\Desktop\\python\\user_data.xlsx"
+file_path = r"user_data.xlsx"
 
 # Function to Load User Data
 @st.cache_data
